@@ -21,7 +21,7 @@ We use yarn scripts and [Webpack][] as our build system.
 Run the following commands in three separate terminals to create a blissful development experience where your browser
 auto-refreshes when files change on your hard drive.
 
-    docker run --name mongo -p 21017:21017 -d mongo 
+    docker run --name mongo -p 27017:27017 -d mongo 
     ./gradlew
     yarn start
 
