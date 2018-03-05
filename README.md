@@ -18,9 +18,10 @@ You will only need to run this command when dependencies change in [package.json
 We use yarn scripts and [Webpack][] as our build system.
 
 
-Run the following commands in two separate terminals to create a blissful development experience where your browser
+Run the following commands in three separate terminals to create a blissful development experience where your browser
 auto-refreshes when files change on your hard drive.
 
+    docker run --name mongo -p 21017:21017 -d mongo 
     ./gradlew
     yarn start
 
